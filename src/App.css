@@ -31,6 +31,10 @@ body {
 
 .app__right {}
 
+.app__LineGraph {
+    margin-top: 20px;
+}
+
 @media (max-width: 900px) {
     .App {
         flex-direction: column;
