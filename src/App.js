@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { FormControl, MenuItem, Select } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  FormControl,
+  MenuItem,
+  Select,
+} from "@mui/material";
 import "./App.css";
+import InfoxBox from "./InfoxBox";
+import Map from "./Map";
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -29,18 +37,37 @@ function App() {
 
   return (
     <div className="App">
-      <div className="app__header">
-        <h1>COVID-19 tracker!</h1>
-        <FormControl className="app__dropdown">
-          <Select variant="outlined" onChange={onCountryChange} value={country}>
-            <MenuItem value="worldwide">Worldwide</MenuItem>
-            {countries.map((country) => (
-              // eslint-disable-next-line react/jsx-key
-              <MenuItem value={country.value}>{country.name}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
+      <div className="app__left">
+        <div className="app__header">
+          <h1>COVID-19 TRACKER</h1>
+          <FormControl className="app__dropdown">
+            <Select
+              variant="outlined"
+              onChange={onCountryChange}
+              value={country}
+            >
+              <MenuItem value="worldwide">Worldwide</MenuItem>
+              {countries.map((country) => (
+                <MenuItem key={country.value} value={country.value}>
+                  {country.name}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        </div>
+        <div className="app__stats">
+          <InfoxBox title="Coronavirus vases" cases={123} total={2000} />
+          <InfoxBox title="Recovered" cases={123} total={3000} />
+          <InfoxBox title="Deaths" cases={123} total={5000} />
+        </div>
+        <Map />
       </div>
+      <Card className="app__right">
+        <CardContent>
+          <h3>Live Cases by Country</h3>
+          <h3>Worldwide new Cases</h3>
+        </CardContent>
+      </Card>
     </div>
   );
 }
