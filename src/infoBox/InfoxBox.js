@@ -4,7 +4,6 @@ import { Card, CardContent, Typography } from "@mui/material";
 import "./infoBox.css";
 
 function InfoxBox({ title, cases, active, isRed, total, ...props }) {
-  console.log(title, active);
   return (
     <Card
       onClick={props.onClick}

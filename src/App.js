@@ -20,7 +20,7 @@ function App() {
   const [country, setCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
   const [tableData, setTableData] = useState([]);
-  const [mapCenter, setMapCenter] = useState({ lat: 34.80746, lng: -40.4796 });
+  const [mapCenter, setMapCenter] = useState({ lat: 36.80746, lng: -40.4796 });
   const [mapZoom, setMapZoom] = useState(3);
   const [mapCounties, setMapCounties] = useState([]);
   const [casesType, setCasesType] = useState("cases");
@@ -59,16 +59,21 @@ function App() {
       countryCode === "worldwide"
         ? "https://disease.sh/v3/covid-19/all"
         : `https://disease.sh/v3/covid-19/countries/${countryCode.iso3}`;
-
     await fetch(url)
       .then((response) => response.json())
       .then((data) => {
         setCountry(countryCode);
         setCountryInfo(data);
-        setTimeout(() => {
+        setMapZoom(3);
+        if (countryCode !== "worldwide") {
+          setTimeout(() => {
+            setMapZoom(6);
+          }, 500);
           setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
-          setMapZoom(6);
-        }, 500);
+        } else {
+          setMapCenter({ lat: 36.80746, lng: -40.4796 });
+          setMapZoom(3);
+        }
       });
   };
 
@@ -120,10 +125,10 @@ function App() {
           />
         </div>
         <Map
-          casesType={casesType}
-          countries={mapCounties}
           center={mapCenter}
           zoom={mapZoom}
+          casesType={casesType}
+          countries={mapCounties}
         />
       </div>
       <Card className="app__right">
