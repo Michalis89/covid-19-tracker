@@ -1,59 +1,79 @@
-* {
-    margin: 0
-}
-
-body {
-    background-color: #f5f6fa;
-}
-
-.App {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-
-.app__dropdown {
-    background-color: white;
-}
-
-.app__header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    justify-content: space-between;
-}
-
-.app__stats {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.app__left {
-    flex: 0.9;
-}
-
-.app__right {
-    display: flex;
-    flex-direction: column;
-}
-
-.app__right .MuiCardContent-root {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.app__graph {
-    flex-grow: 1;
-}
-
-.app__graphTitle {
-    margin-top: 20px;
-}
-
-@media (max-width: 900px) {
+    * {
+        margin: 0
+    }
+    
+    body {
+        background-color: #f5f6fa;
+    }
+    
     .App {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    
+    .app__dropdown {
+        background-color: white;
+    }
+    
+    .app__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    
+    .app__stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .app__left {
+        flex: 0.9;
+    }
+    
+    .app__right {
+        display: flex;
         flex-direction: column;
     }
-}
+    
+    .app__right .MuiCardContent-root {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .app__graph {
+        flex-grow: 1;
+    }
+    
+    .app__graphTitle {
+        margin-top: 20px;
+    }
+    
+    @media (max-width: 900px) {
+        .App {
+            flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 600px) {
+        .app__header>h1 {
+            font-size: 1.5em !important;
+        }
+        .infoBox__cases {
+            font-size: 1.5rem !important;
+        }
+    }
+    
+    @media (max-width: 450px) {
+        .app__stats {
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+        }
+        .app__stats>.MuiPaper-root {
+            margin-bottom: 10px;
+        }
+    }
