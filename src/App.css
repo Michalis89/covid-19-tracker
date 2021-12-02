@@ -12,6 +12,10 @@ body {
     padding: 20px;
 }
 
+.app__dropdown {
+    background-color: white;
+}
+
 .app__header {
     display: flex;
     align-items: center;
@@ -29,9 +33,22 @@ body {
     flex: 0.9;
 }
 
-.app__right {}
+.app__right {
+    display: flex;
+    flex-direction: column;
+}
 
-.app__LineGraph {
+.app__right .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.app__graph {
+    flex-grow: 1;
+}
+
+.app__graphTitle {
     margin-top: 20px;
 }
 

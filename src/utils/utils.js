@@ -9,19 +9,19 @@ const casesTypeColors = {
     hex: "#CC1034",
     rgb: "rgb(204, 16, 52)",
     half_op: "rgba(204, 16, 52, 0.5)",
-    multiplier: 800,
+    multiplier: 200,
   },
   recovered: {
     hex: "#7dd71d",
     rgb: "rgb(125, 215, 29)",
     half_op: "rgba(125, 215, 29, 0.5)",
-    multiplier: 1200,
+    multiplier: 200,
   },
   deaths: {
     hex: "#fb4443",
     rgb: "rgb(251, 68, 67)",
     half_op: "rgba(251, 68, 67, 0.5)",
-    multiplier: 2000,
+    multiplier: 1000,
   },
 };
 
@@ -41,6 +41,9 @@ export const sortData = (data) => {
 
   return sortedData.sort((a, b) => (a.cases > b.cases ? -1 : 1));
 };
+
+export const prettyPrintStat = (stat) =>
+  stat ? `+${numeral(stat).format("0.0a")}` : "+0";
 
 export const showDataOnMap = (data, casesType = "cases") =>
   data.map((country) => (
