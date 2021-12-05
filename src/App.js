@@ -91,8 +91,8 @@ function App() {
               <MenuItem key="worldwide" value="worldwide">
                 Worldwide
               </MenuItem>
-              {countries.map((country) => (
-                <MenuItem key={country._id} value={country.value}>
+              {countries.map((country, index) => (
+                <MenuItem key={index} value={country.value}>
                   {country.name}
                 </MenuItem>
               ))}

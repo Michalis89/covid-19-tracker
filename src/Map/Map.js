@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import React from "react";
 import { Map as LeafletMap, TileLayer } from "react-leaflet";
 import { showDataOnMap } from "../utils/utils";
