@@ -6,6 +6,7 @@ import "./infoBox.css";
 function InfoxBox({ title, cases, active, isRed, total, ...props }) {
   return (
     <Card
+      data-testid="infoBoxCard"
       onClick={props.onClick}
       className={`infoBox ${active && "infoBox--selected"} ${
         isRed && "infoBox--red"

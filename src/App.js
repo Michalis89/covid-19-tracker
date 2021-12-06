@@ -9,11 +9,11 @@ import {
   Select,
 } from "@mui/material";
 import "./App.css";
-import InfoxBox from "./infoBox/InfoxBox";
-import Map from "./Map/Map";
-import Table from "./Table/Table";
+import InfoxBox from "./components/infoBox/InfoxBox";
+import Map from "./components/Map/Map";
+import Table from "./components/Table/Table";
 import { prettyPrintStat, sortData } from "./utils/utils";
-import LineGraph from "./LineGraph/LineGraph";
+import LineGraph from "./components/LineGraph/LineGraph";
 import "leaflet/dist/leaflet.css";
 
 function App() {
@@ -79,7 +79,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div data-testid="App" className="App">
       <div className="app__left">
         <div className="app__header">
           <h1>COVID-19 TRACKER</h1>
