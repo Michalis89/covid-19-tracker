@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://www.skuld.com/contentassets/c0d30d7bf2c64c67b5c0a29dbccf1ebe/covid-19_coronavirus_design_logo-shutterstock_1663374028.jpg">
-    <img src="images/covid logo.png" alt="Logo" width="80" height="80">
+    <img src="images/covid logo.png" alt="Logo" width="320" height="160">
   </a>
 
   <h3 align="center">Covid 19 Tracker</h3>
@@ -156,7 +156,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
   - [ ] Chinese
   - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Michalis89/covid-19-tracker/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -215,15 +215,15 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Michalis89/covid-19-tracker.svg?style=for-the-badge
 [contributors-url]: https://github.com/Michalis89/covid-19-tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Michalis89/covid-19-tracker.svg?style=for-the-badge
 [forks-url]: https://github.com/Michalis89/covid-19-tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Michalis89/covid-19-tracker.svg?style=for-the-badge
 [stars-url]: https://github.com/Michalis89/covid-19-tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Michalis89/covid-19-tracker.svg?style=for-the-badge
+[issues-url]: https://github.com/Michalis89/covid-19-tracker/issues
+[license-shield]: https://img.shields.io/github/license/Michalis89/covid-19-tracker.svg?style=for-the-badge
 [license-url]: https://github.com/Michalis89/covid-19-tracker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/michalis-mouzakitis-b80891126/
