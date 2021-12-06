@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import {
+  capitalize,
   Card,
   CardContent,
   FormControl,
@@ -133,8 +134,8 @@ function App() {
       </div>
       <Card className="app__right">
         <CardContent>
-          <h3>Live Cases by Country</h3>
-          <Table countries={tableData} />
+          <h3>Live {capitalize(casesType)} by Country </h3>
+          <Table countries={tableData} casesType={casesType} />
           <h3 className="app__graphTitle">Worldwide new {casesType}</h3>
           <LineGraph className="app__graph" casesType={casesType} />
         </CardContent>
