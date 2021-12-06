@@ -109,8 +109,7 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
-- nodeJs
-  For starters if don't have NodeJs at your local machine you have to install <a href="https://nodejs.org/en/download/">from here</a>
+- For starters if don't have NodeJs at your local machine you have to install <a href="https://nodejs.org/en/download/">from here</a>
 
 - npm
   ```sh
@@ -121,18 +120,17 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Michalis89/covid-19-tracker
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run start script
+   ```
+   npm run start or yarn start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
