@@ -43,6 +43,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#deployment">Deployment</a></li>
       </ul>
     </li>
     <li><a href="#api-usage">API Usage</a></li>
