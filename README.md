@@ -142,9 +142,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 - [@Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/)
-- [E-mail](mouzakitis.m89@gmail.com)
-
-Portfolio Link: TBD
+- [Portfolio Link - TBD](TBD)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
