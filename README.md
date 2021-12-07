@@ -107,6 +107,31 @@ For starters if don't have NodeJs at your local machine you have to install <a h
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Deployment
+
+In order to deploy the app at firebase you have to:
+
+1. Build the app
+   ```sh
+   npm build or yarn build
+   ```
+2. You should have firebase account and setup the project at the [Firebase](https://firebase.google.com/) GUI)
+
+3. You should install firebase CLI.
+
+   ```sh
+   npm install -g firebase-tools
+   ```
+
+4. At the project's terminal you should login to the firebase
+   ```sh
+   firebase login
+   ```
+5. At the project's terminal you should run the following command in order to deploy the project
+   ```sh
+   firebase deploy
+   ```
+
 <!-- API Usage -->
 
 ## API Usage
