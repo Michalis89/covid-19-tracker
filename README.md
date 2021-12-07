@@ -128,15 +128,20 @@ In order to deploy the app at firebase you have to:
    firebase login
    ```
 5. At the project's terminal you should run the following command in order to deploy the project
+
    ```sh
    firebase deploy
    ```
+
+  <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- API Usage -->
 
 ## API Usage
 
 Here is the [API](https://disease.sh/docs/#/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
