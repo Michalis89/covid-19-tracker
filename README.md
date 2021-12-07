@@ -141,9 +141,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/) - mouzakitis.m89@gmail.com
+- [@Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/)
+- [E-mail](mouzakitis.m89@gmail.com)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Portfolio Link: TBD
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
