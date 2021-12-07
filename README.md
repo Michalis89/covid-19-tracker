@@ -106,8 +106,6 @@ For starters if don't have NodeJs at your local machine you have to install <a h
    npm run start or yarn start
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Deployment
 
 In order to deploy the app at firebase you have to:
