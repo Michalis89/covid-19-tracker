@@ -1,20 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -83,7 +67,7 @@ At this Covid 19 Tracker App you are able to to see:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Below you will find all the tenchologies that i used to to boostrap and deploy the project.
 
 - [React.js](https://reactjs.org/)
 - [Firebase](https://firebase.google.com/)
@@ -94,8 +78,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Set up your project locally.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
@@ -141,7 +125,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-- [@Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/)
+- [Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/)
 - [Portfolio Link - TBD](TBD)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
