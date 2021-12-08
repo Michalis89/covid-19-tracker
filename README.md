@@ -48,7 +48,6 @@
     </li>
     <li><a href="#api-usage">API</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -147,15 +146,6 @@ Here is the [API](https://disease.sh/docs/#/)
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-- [Michalis Mouzakitis](https://www.linkedin.com/in/michalis-mouzakitis-b80891126/)
-- [Portfolio Link - TBD](TBD)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
