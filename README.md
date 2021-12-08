@@ -46,7 +46,7 @@
         <li><a href="#deployment">Deployment</a></li>
       </ul>
     </li>
-    <li><a href="#api-usage">API Usage</a></li>
+    <li><a href="#api-usage">API</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -136,7 +136,7 @@ In order to deploy the app at firebase you have to:
 
 <!-- API Usage -->
 
-## API Usage
+## API
 
 Here is the [API](https://disease.sh/docs/#/)
 
