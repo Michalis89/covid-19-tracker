@@ -17,7 +17,7 @@
   <h3 align="center">Covid 19 Tracker</h3>
 
   <p align="center">
-    This is a Reactjs app for tracking the Covid 19 cases worldwide.
+    This is a Reactjs app for tracking the Covid 19 cases recoveries and deaths worldwide and per country.
     <br />
     <br />
     <a href="https://covid-19-tracker-591a6.web.app/" target="_blank">View Demo</a>
@@ -67,7 +67,7 @@ At this Covid 19 Tracker App you are able to to see:
 
 ### Built With
 
-Below you will find all the tenchologies that i used to to boostrap and deploy the project.
+Below you will find all the technologies that i used to to boostrap and deploy the project.
 
 - [React.js](https://reactjs.org/)
 - [Firebase](https://firebase.google.com/)
